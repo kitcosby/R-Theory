@@ -47,6 +47,19 @@ pass, with source named. Anything not listed here is NOT banked.
   branch(∧²248→D8) − branch(248→D8) = branch(30380→D8) exactly
   (2db30bcadfd5db8c).
 
+## Census 2026-11-03 — 55 branchings, all AGREE + dim-sum PASS
+
+Job set: `jobs/census-2026-11-03.md` (hashes + term counts there;
+full polynomials in the dispatch cache).
+- E8 3875 and 27000 under A8, E7A1, E6A2, A4A4, G2F4
+  (10 branchings; D8 columns banked earlier).
+- E6 27, 78, 351, 650 under A5A1, A2³, C4, F4, G2, A2G2, A2
+  (28 branchings) + 78/650 under D5T1. Notables: 27 stays a single
+  irrep under C4, G2, and the special A2; 27 → F4 = 1 ⊕ 26;
+  78 → F4 = 26 ⊕ 52.
+- E7 56, 133, 912 under D6A1, A7, A5A2, A1F4, G2C3
+  (15 branchings). Notable: 56 → D6A1 = (32,1) ⊕ (12,2).
+
 ## Branching-claim audit — 2026-11-03
 
 Every branching/tensor claim in the DB and text record verified
