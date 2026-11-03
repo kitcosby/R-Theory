@@ -64,6 +64,18 @@ Sym²(120) = 1 ⊕ 135 ⊕ 1820 ⊕ 5304; 120⊗128 = 128 ⊕ 1920 ⊕ 13312;
 (3⊗3̄, 3⊗3, 3⊗3⊗3, 2⊗2); E6→D5T1 and A4→A2A1T1 matrices
 (the `matrices/` folder here).
 
+## E6 → SU(5)×U(1)×U(1) chain — BANKED 2026-11-03
+
+Composed restriction matrix E6 → A4 T2 (full record:
+`matrices/E6_A4T2_chain.md`), built from the E6→D5T1 and
+D5→A4T1 matrices; cross-checked one-step vs two-step on the 27
+(identical), both engines AGREE (aefe4e02c22a8c13), dim sums exact
+for 27, 27̄, 78, 351, 351̄, 650. Charges (x, y) = (D5-leg X-charge,
+E6-leg charge), conventions of the two matrix files:
+- 27 → 1(0,−4) ⊕ 1(−5,−1) ⊕ 5̄(−2,2) ⊕ 5̄(3,−1) ⊕ 10(−1,−1) ⊕ 5(2,2)
+- 78 → 1(−5,3) ⊕ 2·1(0,0) ⊕ 1(5,−3) ⊕ 5̄(3,3) ⊕ 5(−3,−3)
+  ⊕ 10̄(−4,0) ⊕ 10̄(1,−3) ⊕ 10(−1,3) ⊕ 10(4,0) ⊕ 24(0,0)
+
 ## D5 → A4 T1 (SO(10) → SU(5)×U(1)) — BANKED 2026-11-01
 
 Hand-built restriction matrix (full record:
