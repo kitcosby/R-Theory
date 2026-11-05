@@ -1,32 +1,40 @@
-# R-Theory
+# R-Theory — selected backup mirror
 
-Backup mirror of the [R Theory rewrite site](https://github.com/cosbykit-afk/r-theory-rewrite)
-research pages — `tables/`, `research/`, and `appendix/` — synced from
-[r-theory-rewrite](https://github.com/cosbykit-afk/r-theory-rewrite).
+Selected backup mirror for supporting R Theory rewrite materials from the canonical repository: [kitcosby/r-theory-rewrite](https://github.com/kitcosby/r-theory-rewrite).
+
+This repository is not the canonical source for the rewrite and is not the GitHub Pages deployment. The live site is served from the primary repository. Do not assume this mirror is complete or byte-for-byte synchronized without a dated comparison.
 
 ## What this is
 
-A source backup only. There is no GitHub Pages on this repo; the live site
-is served from r-theory-rewrite. If that repo were ever lost, these pages
-plus the tables CSVs are enough to restore the research content.
+A manually maintained backup of selected research and supporting materials. It is useful as a secondary copy, but it should not be treated as a full replacement for the primary repository.
 
-## Contents
+## Observed contents
 
-| Directory | What it is |
+| Directory | What it contains |
 |---|---|
-| `tables/` | Pre-computed tables (E8 30380 weight table, R1/R2/R3a/R3b, matrix archive); 15/15 CSVs |
-| `research/` | Research companion notes |
-| `appendix/` | Appendix pages |
-| `docs/` | Supporting documents |
+| tables/ | Pre-computed tables and data archives |
+| tables/lie/ | Lie-related tables and audit material |
+| research/ | Research companion notes |
+| appendix/ | Appendix pages |
+| docs/ | Supporting documents |
 
-## Sync status (2026-09-29)
+The exact contents may change. Consult the repository tree for the current inventory.
 
-All three mirror pages (tables, research, appendix) were re-synced from
-r-theory-rewrite and byte-verified. Re-sync on request — this is a manual
-process, not automatic.
+## Synchronization status
 
-## Source
+No current byte-level synchronization claim is made here. The previous README cited a 2026-09-29 sync and verification of three page groups; that historical statement is not evidence of current parity.
 
-Mirror of [cosbykit-afk/r-theory-rewrite](https://github.com/cosbykit-afk/r-theory-rewrite).
-The R Theory manuscript itself is read-only; this is a backup of the public
-rewrite, which is public domain ([The Unlicense](https://unlicense.org)).
+For each future sync, record:
+- source repository and source commit SHA;
+- mirror commit SHA;
+- paths included and excluded;
+- comparison method and result;
+- date of synchronization.
+
+The synchronization process is manual unless a verified automation is added and documented.
+
+## Source and license
+
+Canonical rewrite repository: [kitcosby/r-theory-rewrite](https://github.com/kitcosby/r-theory-rewrite).
+
+The original R Theory manuscript is read-only; this repository is a backup of selected rewrite materials. Public domain — [The Unlicense](https://unlicense.org).
